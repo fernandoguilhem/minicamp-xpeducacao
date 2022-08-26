@@ -1,0 +1,18 @@
+<html>
+    <script>
+        function numerosPrimos(numero) {
+            var primo = true;
+                for (var i = 2; i < numero; i++) {
+                    if (numero % i === 0) {
+                        primo = false;
+                        break
+                    }
+                }
+                if (primo === true) {
+                    console.log("O valor é primo.");
+                } else {
+                    console.log("O valor não é primo.");
+                }
+        }
+    </script>
+</html>
